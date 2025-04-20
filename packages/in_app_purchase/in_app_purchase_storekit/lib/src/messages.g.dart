@@ -402,7 +402,8 @@ class SKPriceLocaleMessage {
     return SKPriceLocaleMessage(
       currencySymbol: result[0]! as String,
       currencyCode: result[1]! as String,
-      countryCode: result[2]! as String,
+      // countryCode: result[2]! as String,
+      countryCode: "CN"
     );
   }
 }
